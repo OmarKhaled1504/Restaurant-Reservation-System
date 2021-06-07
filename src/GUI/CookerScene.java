@@ -99,6 +99,7 @@ public class CookerScene {
             for (Reservation reservation : restaurant.getReservationsList().getReservationsList()) {
                 if (ComboBoxServing.getValue().equals("Table #: " + reservation.getTable().getTableNumber())) {
                     reservation.setCooked(true);
+                    reservation.setCooked(true);
                     ordersArea.setText(orderBuilder());
 
                 }
